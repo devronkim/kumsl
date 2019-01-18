@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The Dash Core developers
+// Copyright (c) 2018 The KUmsl Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_QUORUMS_BLOCKPROCESSOR_H
-#define DASH_QUORUMS_BLOCKPROCESSOR_H
+#ifndef KUMSL_QUORUMS_BLOCKPROCESSOR_H
+#define KUMSL_QUORUMS_BLOCKPROCESSOR_H
 
 #include "llmq/quorums_commitment.h"
 
@@ -58,4 +58,4 @@ extern CQuorumBlockProcessor* quorumBlockProcessor;
 
 }
 
-#endif//DASH_QUORUMS_BLOCKPROCESSOR_H
+#endif//KUMSL_QUORUMS_BLOCKPROCESSOR_H

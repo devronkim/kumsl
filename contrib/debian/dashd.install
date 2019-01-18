@@ -1,2 +1,2 @@
-usr/local/bin/dashd usr/bin
-usr/local/bin/dash-cli usr/bin
+usr/local/bin/kumsld usr/bin
+usr/local/bin/kumsl-cli usr/bin

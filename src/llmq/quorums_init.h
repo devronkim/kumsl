@@ -1,9 +1,9 @@
-// Copyright (c) 2018 The Dash Core developers
+// Copyright (c) 2018 The KUmsl Core developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef DASH_QUORUMS_INIT_H
-#define DASH_QUORUMS_INIT_H
+#ifndef KUMSL_QUORUMS_INIT_H
+#define KUMSL_QUORUMS_INIT_H
 
 class CEvoDB;
 
@@ -15,4 +15,4 @@ void DestroyLLMQSystem();
 
 }
 
-#endif //DASH_QUORUMS_INIT_H
+#endif //KUMSL_QUORUMS_INIT_H

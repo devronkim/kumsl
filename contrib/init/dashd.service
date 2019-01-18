@@ -1,15 +1,15 @@
 [Unit]
-Description=Dash's distributed currency daemon
+Description=KUmsl's distributed currency daemon
 After=network.target
 
 [Service]
-User=dashcore
-Group=dashcore
+User=kumslcore
+Group=kumslcore
 
 Type=forking
-PIDFile=/var/lib/dashd/dashd.pid
-ExecStart=/usr/bin/dashd -daemon -pid=/var/lib/dashd/dashd.pid \
--conf=/etc/dashcore/dash.conf -datadir=/var/lib/dashd -disablewallet
+PIDFile=/var/lib/kumsld/kumsld.pid
+ExecStart=/usr/bin/kumsld -daemon -pid=/var/lib/kumsld/kumsld.pid \
+-conf=/etc/kumslcore/kumsl.conf -datadir=/var/lib/kumsld -disablewallet
 
 Restart=always
 PrivateTmp=true

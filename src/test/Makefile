@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. kumsl_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. kumsl_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. kumsl_test_check
